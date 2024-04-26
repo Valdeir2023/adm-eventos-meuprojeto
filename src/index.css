@@ -1,0 +1,115 @@
+/* Index.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  margin: 0;
+  background:
+  radial-gradient(circle, #1a5fe033, #f0c50627, #9ef5a54f, #02ff2c3b), /* Background com gradiente */
+    hsl(102, 76%, 87%); /* Background com cor */
+  background-size: 400% 400%;
+  animation: gradient 8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; /* Animação do gradiente */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+  background: rgba(252, 250, 250, 0.096); /* Cor de fundo com transparência */
+  box-shadow: 0px 0px 15px rgba(150, 151, 150, 0.3);
+  border-radius: 45px;
+  transition: all 0.3s ease;
+}
+
+form:hover {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 60px;
+  background: rgba(252, 250, 250, 0.151); /* Cor de fundo com transparência */
+  box-shadow: 0px 0px 15px rgba(18, 129, 3, 0.295);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #0000006e;
+  transition: color 0.3s ease;
+}
+
+
+.titulo {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  /* Adicione outros estilos conforme necessário */
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+input[type='text'], input[type='email'], input[type='password'] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+input[type='text']:focus, input[type='email']:focus, input[type='password']:focus {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+input[type='submit'] {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 45px;
+  color: #0000009c;
+  background: #2bff009c;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type='submit']:hover {
+  width: 100%;
+  padding: 22px;
+  border: 2px solid #eff3171e;
+  border-radius: 4px;
+  color: #000000;
+  background: #2bff00;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(53, 248, 4, 0);
+}
