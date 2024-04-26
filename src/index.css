@@ -23,6 +23,22 @@ body {
   }
 }
 
+.titulo_nome {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  background: radial-gradient(circle, #02ff2cd8, #9ef5a5d0, #f0c506b4, #1a5fe0ef);
+  -webkit-background-clip: text; /* Isso é necessário para aplicar o gradiente ao texto no Safari */
+  -webkit-text-fill-color: transparent; /* Isso é necessário para aplicar o gradiente ao texto no Safari */
+  /*box-shadow: 0px 0px 15px rgba(6, 240, 6, 0.3);*/
+
+}
+
+
+
 form {
   max-width: 500px;
   margin: 50px auto;
@@ -39,7 +55,7 @@ form:hover {
   padding: 60px;
   background: rgba(252, 250, 250, 0.151); /* Cor de fundo com transparência */
   box-shadow: 0px 0px 15px rgba(18, 129, 3, 0.295);
-  border-radius: 5px;
+  border-radius: 45px;
   transition: all 0.3s ease;
 }
 

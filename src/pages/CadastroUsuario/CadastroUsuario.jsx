@@ -20,7 +20,8 @@ const CadastroUsuario = () => {
 
   return (
     <div>
-      <h2>CADASTRO DE USUÁRIO</h2>
+      <h2 className="titulo_nome">CADASTRO DE USUÁRIO</h2>
+
       <form>
         <label htmlFor='nome'>Nome:</label>
         <input type='text' id='nome' name='nome' value={formulario.nome} onChange={alteraFormulario} required/>
