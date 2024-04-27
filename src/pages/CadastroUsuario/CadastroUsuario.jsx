@@ -32,7 +32,7 @@ const CadastroUsuario = () => {
     const docSnap = await getDoc(docRef);
 
   if (doc.docSnap.exists()) {
-    alert ("Esse E-mail Ja existe")
+    alert ("Esse E-mail Ja existe") ////////// MENSAGEM AINDA NAO ESTA PEGANDO ////////////////////////
   }
   else 
   {
